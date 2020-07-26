@@ -1,2 +1,11 @@
+spring:
+  application:
+    name: oslo-demo-hub-with-kotlin
+
 server:
   port: 8081
+
+custom:
+  feign:
+    value: 'BizFeignClient'
+    target_url: http://localhost:8082/biz
